@@ -32,7 +32,7 @@ class SignUpInAct : AppCompatActivity() {
             intent.putExtra(Constance.name1, bindingclass.edName1.text.toString())
             intent.putExtra(Constance.name2, bindingclass.edName2.text.toString())
             intent.putExtra(Constance.name3, bindingclass.edName3.text.toString())
-            if(bindingclass.imAvatar.isVisible) intent.putExtra(Constance.avatar_id, R.drawable.petyshara)
+            if(bindingclass.imAvatar.isVisible) intent.putExtra(Constance.avatar_id, R.drawable.andrey)
             setResult(RESULT_OK,intent)
             finish()
         } else if (sign_state == Constance.SIGN_IN_STATE){
